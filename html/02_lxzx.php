@@ -14,7 +14,7 @@
 <!-- header（End） -->
 
 <div class="vane360-wrap lxzx-wrap">
-	<div class="bg-line" style="margin:25px auto 20px"></div>
+    <div class="bg-line" style="margin:25px auto 20px"></div>
     <article class="clearfix"> 
         <!-- sideNav -->
         <aside class="sideNav">
@@ -110,6 +110,15 @@
             </section>
         </div>
     </article>
+    
+    <!-- main-cont -->
+    <section class="tool-bar">
+        <ul>
+            <li><a href="#"><i class="m-icon m-icon-zxbm"></i><span>高中留学</span></a></li>
+            <li><a href="#"><i class="m-icon m-icon-zxzx"></i><span>本科留学</span></a></li>
+            <li><a href="#"><img src="images/bg_QRcode.png" alt=""></a></li>
+        </ul>
+    </section>
 </div>
 
 <!-- footer（Start） -->

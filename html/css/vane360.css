@@ -75,6 +75,8 @@ button.m-btn-double { padding-left:50px; padding-right:50px; *padding-left:30px;
 .m-icon-shadow-bl { width: 6px; height: 15px; background-position: -16px -35px; }
 .m-icon-shadow-titleRL { width: 14px; height: 8px; background-position: -32px -35px;}
 .m-icon-person { width: 30px; height: 33px; background-position: 0px -115px; }
+.m-icon-zxbm { width: 20px; height: 25px; background-position: 0px 0px; }
+.m-icon-zxzx { width: 24px; height: 25px; background-position: -30px 0px; }
 
 
 /*! 名称：header & footer
@@ -226,126 +228,6 @@ border-radius: 50%; }
 .m-list-focus-simple li .m-list-focus-btns p { line-height:1.4; text-align: right;}
 .m-list-focus-simple li .m-list-focus-btns p a.m-btn-link { color: #333;}
 
-/*  === ‘我的Photowoo’顶部信息栏 m-myPW-topBar ===  */
-.m-myPW-topBar { position: relative; background-color: #F2F2F2; padding: 20px 0; z-index: 9; }
-.m-myPW-topBar-in { margin: 0 auto; width: 960px; color: #666; font: normal 16px/20px "\5FAE\8F6F\96C5\9ED1", Arial; position: relative; z-index: 9; }
-.m-myPW-info01 .m-myPW-info01-pic { float: left; width: 110px; height: 110px; overflow: hidden; }
-.m-myPW-info01 .m-myPW-info01-cont { float: left; width: 350px; margin-left: 20px; }
-.m-myPW-info01 .m-myPW-info01-cont h4 { font: normal 24px/30px "\5FAE\8F6F\96C5\9ED1", Arial; color: #333; margin: 5px 0 15px; }
-.m-myPW-info01 .m-myPW-info01-cont h4 span { display: inline-block; vertical-align: middle; }
-.m-myPW-info01 .m-myPW-info01-cont p { line-height: 1.8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.m-myPW-info01 .m-myPW-info01-cont p .m-icon { margin-right: 4px; }
-.m-myPW-info01 .m-myPW-info01-cont p strong { display: inline-block; vertical-align: middle; font-weight: normal; }
-.m-myPW-info02 { position: absolute; right: 0; top: 0px; }
-.m-myPW-info02 table { }
-.m-myPW-info02 table td { text-align: center; vertical-align: middle; padding: 5px 5px; }
-.m-myPW-info02 tr.m-myPW-info02-num { font: normal 24px/1 Arial, "\5FAE\8F6F\96C5\9ED1"; color: #0099e6; }
-.m-myPW-info02 tr.m-myPW-info02-text td { padding: 5px 5px 10px; }
-.m-myPW-info02 tr.m-myPW-info02-btns .m-btn { margin: 0 5px; }
-/*  === ‘我的Photowoo’ 顶部导航栏 m-myPW-topNav ===  */
-.m-myPW-topNav { position: relative; background-color: #ebebeb; padding: 0px; z-index: 9; }
-.m-myPW-topNav-in { margin: 0 auto; width: 960px; color: #666; font: normal 18px/24px "\5FAE\8F6F\96C5\9ED1", Arial; position: relative; z-index: 9; }
-.m-myPW-topNav li { float: left; vertical-align: middle; }
-.m-myPW-topNav li a { display: block; border-bottom: 3px solid #ebebeb; padding: 10px 20px 10px; margin-right: 5px; }
-.m-myPW-topNav li a:hover, .m-myPW-topNav li a.active { text-decoration: none; border-bottom: 3px solid #0099e6; }
-/*  === ‘我的Photowoo’ 好友动态 ===  */
-.hy-feed { margin: 20px auto; }
-.hy-feed .hy-face { float: left; width: 70px; }
-.hy-feed .hy-face .hy-face-img { display: block; width: 70px; height: 70px; overflow: hidden; }
-.hy-feed .no-follow { display: block; margin-top: 10px; height: 22px; line-height: 22px; width: 70px; text-align: center; background-color: #ccc; color: #fff; }
-.hy-feed a.no-follow:hover { text-decoration: none; }
-.hy-feed .hy-detail { margin-left: 90px; background-color: #eee; position: relative; }
-.hy-detail .dashed { height: 0; border-bottom: 1px dashed #ccc; }
-.hy-detail-hd { height: 55px; line-height: 55px; color: #333; font-size: 18px; padding: 0 20px; }
-.hy-detail-hd .title-bar { float: left;}
-.hy-detail-hd .btn-bar { float: right; line-height: 30px; padding-top: 14px;}
-.hy-detail-hd .btn-bar .btn { display: block; float: left; height: 30px; color: #fff; font-size: 16px; border-radius: 2px; padding:0 10px ; margin-left: 10px;  }
-.hy-detail-hd .btn-bar .btn:hover { text-decoration: none;}
-.hy-detail-hd .btn-bar .btn .m-icon { margin-right: 2px;}
-.hy-detail-hd .btn-bar .btn-great { background-color: #0099e6; }
-.hy-detail-hd .btn-bar .btn-love { background-color: #ff4d4d; }
-.hy-detail-hd .btn-bar .btn-comment { background-color: #7a8a99; }
-.hy-detail-hd .btn-bar .btn-done { background-color: #CCC; cursor:default;}
-.hy-detail-hd .time { font-size: 14px; color: #999; margin-left: 20px; }
-.hy-detail-pic { margin: 10px; width: 850px; position: relative; }
-.hy-detail-pic img { display: block;}
-.hy-detail-pic-des { position: absolute; bottom: 0; left: 0; height: 50px; line-height: 50px; color: #fff; font-size: 16px; width: 850px; }
-.hy-detail-pic-des .tip { float: left; width: 50px; height: 50px; text-align: center; background-color: #0099e6; }
-.hy-detail-pic-des .tip em { font-size: 24px; }
-.hy-detail-pic-des h4 { margin-left: 60px; }
-.hy-detail-comment-form { border: 1px solid #ddd; box-shadow: 0 4px 1px #eee inset; position: relative; margin: 10px 20px 0;  }
-.hy-detail-comment-form textarea { border: none; height: 68px; width: 808px; padding: 5px 10px; line-height: 22px; font: 14px microsoft yahei; background-color: #f7f7f7; overflow-y:auto; }
-.hy-detail-comment-form .comment-btns { position: absolute; bottom: 10px; right: 0; }
-.hy-detail-comment-form .comment-btns .m-btn { margin-right: 10px; }
-.hy-detail-comment ul { }
-.hy-detail-comment li { padding: 10px 20px; width: 830px; overflow: hidden; }
-.hy-detail-comment li .pic { display: block; float: left; height: 50px; width: 50px; overflow: hidden; }
-.hy-detail-comment li .content { float: left; line-height: 25px; color: #666; font-size: 14px; padding-left: 10px; width: 680px; }
-.hy-detail-comment li .content .name { font-weight: bold; color: #666; }
-.hy-detail-comment li .txR { width: 90px; float: left; text-align: right; line-height: 25px; font-size: 14px; }
-.hy-detail-comment li .txR a { color: #333; }
-.hy-detail-comment li .txR .time { color: #999; }
-.hy-detail-comment li.odd { background-color: #f7f7f7; }
-.hy-detail .arrow-down { position: absolute; top: 0; left: -15px; width: 0px; height: 0px; border-left: 15px solid transparent; border-right: 15px solid transparent; border-top: 12px solid #eee; font-size: 0px; line-height: 0px; }
-/*  === ‘我的Photowoo’ 查看作品 15_ckzp ===  */
-.ckzp-hd { }
-.ckzp-wrap a.btn:hover { text-decoration: none; }
-.ckzp-hd-panel { height: 30px; line-height: 30px; overflow: hidden; padding: 25px 0 15px; }
-.ckzp-hd-panel h3 { font-size: 24px; color: #333; float: left; }
-.ckzp-hd-panel .infor { margin-left: 30px; color: #999; font-size: 16px; }
-.ckzp-hd-panel .btn { display: block; float: left; height: 30px; color: #fff; font-size: 16px; border-radius: 2px; padding:0 5px 0 0; margin-left: 10px;  }
-.ckzp-hd-panel .btn-great { background-color: #0099e6; }
-.ckzp-hd-panel .btn-love { background-color: #ff4d4d; }
-.ckzp-hd-panel .btn-comment { background-color: #7a8a99; }
-.ckzp-hd-panel .btn-done { background-color: #ccc; cursor:default; }
-.ckzp-hd-panel .btn .m-icon { margin: 0 3px 5px 4px; }
-.ckzp-hd-panel .btn .m-icon-great { margin-right: 8px; }
-.ckzp-hd .intro { line-height: 1.6; font-size: 16px; color: #666; }
-.ckzp-bd-pic { width: 960px; position: relative; }
-.ckzp-bd-pic img { display: block; width: 100%;}
-.ckzp-pic-mask { position: absolute; bottom: 0; left: 0; height: 40px; line-height: 40px; width: 940px; background: rgba(0,0,0,0.5); color: #fff; font-size: 16px; padding: 0 10px; }
-.ckzp-pic-mask .btn { position: relative; color: #fff; display: inline-block; float: left; height: 22px; line-height: 22px; width: 78px; border: 1px solid #fff; border-radius: 2px; margin: 8px 0 0 10px; z-index: 9;}
-.ckzp-pic-mask .btn:hover .popup-exif{ display: block;}
-.ckzp-pic-mask .btn .popup-exif { position: absolute; left: -130px; top: -324px; display: none; width: 260px; background:transparent url(../images/bg_black_opacity50.png) repeat 0 0;  border: 1px solid #000;padding:5px 0; margin-left:39px;  z-index: 99; -webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;}
-.ckzp-pic-mask .btn .popup-exif .m-triangle { position: absolute; left:50%; bottom:-11px; margin-left:-10px; z-index: 99;}
-.ckzp-pic-mask .btn .popup-exif table { width: 100%; font: normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; text-align: left;}
-.ckzp-pic-mask .btn .popup-exif th,.ckzp-pic-mask .btn .popup-exif td { padding:2px 10px; }
-.ckzp-pic-mask .btn .popup-exif th,.ckzp-pic-mask .btn .popup-exif td span { display: block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
-.ckzp-pic-mask .btn .popup-exif th { width:60px; font-weight: normal; border-right:1px solid #333;}
-.ckzp-pic-mask .btn .popup-exif th span {width:60px;}
-.ckzp-pic-mask .btn .popup-exif td,
-.ckzp-pic-mask .btn .popup-exif td span { width: 150px;}
-.ckzp-comment-wrap { margin-top: 10px; }
-.ckzp-comment-box { border: 1px solid #ddd; box-shadow: 0 4px 1px #eee inset; position: relative; }
-.ckzp-comment-box textarea { border: none; height: 68px; width: 938px; padding: 5px 10px; line-height: 22px; font: 14px microsoft yahei; background-color: #f7f7f7; overflow-y:auto; }
-.ckzp-comment-box .comment-btns { position: absolute; bottom: 10px; right: 0; }
-.ckzp-comment-box .comment-btns .m-btn { margin-right: 10px; }
-.comment-all { position: relative; z-index: 99;}
-.comment-all .head-pic { position: absolute; left: 0; top: 20px; width: 50px; height: 50px; overflow: hidden; z-index: 99;}
-.comment-all .head-pic img{ display: block;}
-.comment-all .ckzp-comment-box { width: 900px; border: 1px solid #ddd; box-shadow: 0 4px 1px #eee inset; position: relative; margin-left: 60px; }
-.comment-all .ckzp-comment-box textarea { border: none; height: 68px; width: 880px; padding: 5px 10px; line-height: 22px; font: 14px microsoft yahei; background-color: #f7f7f7; *margin-left: -60px; }
-.comment-all .ckzp-comment-box .comment-btns { position: absolute; bottom: 10px; right: 0; }
-.comment-all .ckzp-comment-box .comment-btns .m-btn { margin-right: 10px; }
-.comment-all .hy-detail-comment .p-pic { width: 180px; height: 135px; overflow:hidden; margin: 5px 0;}
-
-.ckzp-bd .comment-all .hy-detail-comment-sub { width: 890px; background-color: #eee; margin-top: 10px; padding: 0; }
-.ckzp-bd .comment-all .hy-detail-comment-sub li { width: 870px; vertical-align:middle; padding: 10px; }
-.ckzp-bd .comment-all .hy-detail-comment-sub li.odd {background-color: #F7F7FF 7px;}
-.ckzp-bd .comment-all .hy-detail-comment-sub .content { width: 720px; }
-
-.m-btn-green, a.m-btn-green:hover { background-color: #26bf26; }
-.m-btn-gray, a.m-btn-gray:hover { background-color: #ccc; }
-.ckzp-bd .hy-detail-comment { background-color: #eee; margin-top: 10px; padding: 0; }
-.ckzp-bd .hy-detail-comment li { width: 940px; padding: 10px; vertical-align:middle; }
-.ckzp-bd .hy-detail-comment .content { width: 790px; }
-.ckzp-bd-feed { margin-top: 20px; }
-.ckzp-bd .comment-all { border-top:1px solid #CCCCCC; padding: 20px 0; margin-top: 20px;}
-.ckzp-comment-wrap .comment-pic { display: block; height: 50px; width: 50px; float: left; margin-right: 10px; overflow: hidden; }
-.ckzp-comment-wrap .w900 { width: 898px; float: left; }
-.ckzp-comment-wrap .w900 textarea { width: 878px; }
 /*  ===  分页模块 m-pagination ===  */
 .m-pagination { clear: both; display: block; margin: 20px auto; }
 .m-pagination p { text-align: center; }
@@ -363,12 +245,13 @@ border-radius: 3px;}
     margin-bottom: 15px;
     margin-top: 10px;
 }
-/*  === 弹层模块 m-popup ===  */
-
-/*  === 临时模块（上线时删除） Temp-common ===  */
-#Temp-common-wrap .div-mask { display: block; }
-
-
+/*  === tool-bar ===  */
+.tool-bar { position: absolute; right:-70px; top: 0; z-index: 99;}
+.tool-bar li a { display: block; width: 50px; height: 50px; color: #fff; text-align: center; vertical-align:middle; background-color: #00B46E; padding: 5px; margin:0px auto 3px;}
+.tool-bar li a:hover {text-decoration: none;}
+.tool-bar li a img { display: block; width: 50px; height: 50px; margin:0 auto;}
+.tool-bar li a span { display: block; margin-top: 2px;}
+.tool-bar li a .m-icon { margin-top:5px;}
 /* 名称：Page
    用途：各页面css
 ======================================== */
