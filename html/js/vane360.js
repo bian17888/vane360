@@ -19,9 +19,22 @@ $(function(){
 	/*  ===== footer 居页面底部 ====== */
 	var pageHeight = $(window).height();
 	var minHeight = pageHeight - 318;
+	$('.vane360-wrap').css({'min-height':minHeight});
 	$(window).resize(function() {
     	$('.vane360-wrap').css({'min-height':minHeight});
 	});
+	
+	
+	var myScroll;
+	function loaded () {
+		myScroll = new IScroll('#scroll-wrap', { 
+			scrollbars: true,
+			scrollX: false, 
+			freeScroll: true, 
+			fadeScrollbars:false 
+		});
+	}
+	loaded();
 });
 
 

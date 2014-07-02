@@ -20,8 +20,8 @@ a { text-decoration: none; color: #1a66b3; cursor: pointer; }
 a:hover { text-decoration: underline }
 .vane360-wrap { margin: 0 auto; width: 960px; color: #404040; font: normal 12px/18px "\5FAE\8F6F\96C5\9ED1", Arial; position: relative; }
 .hidden { display: none; }
-.c-blue { color: #0099e6; }
-.c-orange { color: #ff7f00; }
+.c-green { color: #00b46e; }
+.c-gray { color: #a9a9a9; }
 .f16 { font-size: 16px;}
 .txC { text-align: center; }
 .ov-e { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -73,6 +73,8 @@ button.m-btn-double { padding-left:50px; padding-right:50px; *padding-left:30px;
 .m-icon { display: inline-block; line-height: 18px; vertical-align: middle; background-image: url("../images/bg_icons.png"); background-position: 0px 0px; background-repeat: no-repeat; }
 .m-icon-shadow-br { width: 6px; height: 15px; background-position: -0px -35px; }
 .m-icon-shadow-bl { width: 6px; height: 15px; background-position: -16px -35px; }
+.m-icon-shadow-titleRL { width: 14px; height: 8px; background-position: -32px -35px;}
+.m-icon-person { width: 30px; height: 33px; background-position: 0px -115px; }
 
 
 /*! 名称：header & footer
@@ -172,18 +174,15 @@ border-radius: 50%; }
 .m-group-pic .ul-wrap li .div-mask p .m-icon { margin-right: 3px; }
 .m-group-pic .ul-wrap li .div-mask p strong { display: inline-block; vertical-align: middle; font-weight: normal; }
 /* 自定义尺寸 */
-.m-group-pic .ul-wrap .li-s572x184 .p-pic { width: 572px; height: 184px; }
-.m-group-pic .ul-wrap .li-s455x180 .p-pic { width: 455px; height: 180px; }
-.m-group-pic .ul-wrap .li-s378x378 .p-pic { width: 378px; height: 378px; }
-.m-group-pic .ul-wrap .li-s280x166 .p-pic { width: 260px; height: 166px; }
-.m-group-pic .ul-wrap .li-s240x240 .p-pic { width: 240px; height: 240px; }
-.m-group-pic .ul-wrap .li-s184x184 .p-pic { width: 184px; height: 184px; }
-.m-group-pic .ul-wrap .li-s185x180 .p-pic { width: 180px; height: 180px; }
-.m-group-pic .ul-wrap .li-s180x180 .p-pic { width: 180px; height: 180px; }
-.m-group-pic .ul-wrap .li-s160x166 .p-pic { width: 160px; height: 166px; }
-.m-group-pic .ul-wrap .li-s145x180 .p-pic { width: 145px; height: 180px; }
-/* 特殊情况：含tip的时候，去掉overflow:hidden */
-.m-group-pic-special .ul-wrap { overflow: inherit; }
+.m-group-pic .ul-wrap .li-s330x160 .p-pic { width: 330px; height: 160px; }
+
+/* 特殊情况：文字信息模块 m-group-pic */
+.m-group-text .ul-wrap { width: 770px;}
+.m-group-text .ul-wrap ul { width: 770px; }
+.m-group-text .ul-wrap li { margin: 0 55px 20px 0; }
+.m-group-text .ul-wrap h3 { font-size:14px; margin:7px 0 2px;  }
+.m-group-text .ul-wrap p { line-height:1.6;}
+.m-group-text .ul-wrap p.p-des { overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
 /* 自定义尺寸-div-mask 遮罩层 */
 .m-group-pic .ul-wrap .li-s184x184 .div-mask { width: 184px; height: 184px; }
 /*  === 图文列表模块 m-list-picT ===  */
@@ -373,6 +372,18 @@ border-radius: 3px;}
 /* 名称：Page
    用途：各页面css
 ======================================== */
+/* === 00-两栏整体框架 === */
+.sideNav { float: left; width: 135px; height:511px; background:url(../images/bg_border_shadow_r.png) no-repeat 120px 0;}
+.sideNav-in { width: 120px;}
+.sideNav-in h2 { position: relative; font:normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; color: #fff; background-color: #00B46E; padding:4px 0 2px 25px; z-index: 9;}
+.sideNav-in h2 .span-decorate {position: absolute; right: -14px; bottom: 0; display: block; width: 14px; height: 26px; background-color: #00B46E; z-index: 99;}
+.sideNav-in h2 .m-icon-shadow-titleRL {position: absolute; right: -14px; bottom: -7px; z-index: 99;}
+.sideNav-in li a { display: block; width:80px; color: #808080; text-align: center;  margin:35px auto 30px;}
+.sideNav-in li a:hover {text-decoration: none;}
+.sideNav-in li a span { display: block; margin-top: 5px;}
+.main-cont { float: right; width: 770px;}
+/* =- To do: height*/
+#scroll-wrap { position: relative; height: 450px; z-index: 9;}
 /* === 01-首页 === */
 .index-wrap { }
 .index-wrap .bg-line { margin:25px auto 10px;}
