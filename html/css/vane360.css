@@ -246,7 +246,7 @@ border-radius: 50%; }
     margin-top: 10px;
 }
 /*  === tool-bar ===  */
-.tool-bar { position: absolute; right:-70px; top: 0; z-index: 99;}
+.tool-bar { position: absolute; right:-70px; top: 0; display: block; width: 60px; z-index: 99; *top:25px;}
 .tool-bar li a { display: block; width: 50px; height: 50px; color: #fff; text-align: center; vertical-align:middle; background-color: #00B46E; padding: 5px; margin:0px auto 3px;}
 .tool-bar li a:hover {text-decoration: none;}
 .tool-bar li a img { display: block; width: 50px; height: 50px; margin:0 auto;}
