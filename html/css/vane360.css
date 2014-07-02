@@ -92,7 +92,7 @@ button.m-btn-double { padding-left:50px; padding-right:50px; *padding-left:30px;
 .header .header-info h1.logo-vane360 .m-icon-shadow-br { position: absolute; right:-6px; bottom:0px; z-index: 99;}
 .header .header-info .logo-font { position: absolute; left: 140px; top: 25px; z-index: 99;}
 .header .header-info .header-info-contact { position: absolute; right: 0px; top: 50px; width:220px; color: #fff; text-align: left; z-index: 99;}
-.header .mainNav { position: absolute; right: 0; bottom: -14px;  line-height: 0px; padding: 0; z-index: 99;} /* <bug>:line-heigt:0 */
+.header .mainNav { position: absolute; right: 0; bottom: -14px; width: 740px; line-height: 0px; padding: 0; z-index: 99;} /* <bug>:line-heigt:0 */
 .header .mainNav ul { margin: 0 auto; }
 .header .mainNav li { float: left; vertical-align: middle; }
 .header .mainNav .li-decorate { position: absolute; left: -6px; bottom: 0; z-index: 99;}
