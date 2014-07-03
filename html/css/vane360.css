@@ -80,8 +80,18 @@ z-index: 9; cursor: default; }
 .m-icon-shadow-bl { width: 6px; height: 15px; background-position: -16px -35px; }
 .m-icon-shadow-titleRL { width: 14px; height: 8px; background-position: -32px -35px; }
 .m-icon-person { width: 30px; height: 33px; background-position: 0px -115px; }
+.m-icon-person02 { width: 31px; height: 34px; background-position: -41px -115px; }
 .m-icon-zxbm { width: 20px; height: 25px; background-position: 0px 0px; }
 .m-icon-zxzx { width: 24px; height: 25px; background-position: -30px 0px; }
+.m-icon-sqws { width: 35px; height: 34px; background-position: 0px -158px;}
+.m-icon-zpj { width: 28px; height: 34px; background-position: -44px -158px;}
+.m-icon-yspx { width: 36px; height: 34px; background-position: -82px -158px;}
+
+.m-icon-ygyx { width: 50px; height: 33px; background-position: -2px -203px;}
+.m-icon-mgyx { width: 50px; height: 33px; background-position: -63px -203px;}
+.m-icon-dgyx { width: 50px; height: 33px; background-position: -124px -203px;}
+.m-icon-fgyx { width: 50px; height: 33px; background-position: -184px -203px;}
+
 /*! 名称：header & footer
     用途：页头页尾
 ======================================== */
@@ -139,10 +149,12 @@ z-index: 9; cursor: default; }
 .m-slide-main { width: 960px; height: 380px; overflow: hidden; margin: 10px 0; }
 .m-slide-main .m-slide-cont li a.m-slide-cont-fullPic { width: 960px; height: 380px; }
 .m-slide-main .m-slide-btns a { margin-top: -30px; }
-/*  === 标题模块 m-title ===  */
-.m-title { color: #333; font: normal 16px/20px "\5FAE\8F6F\96C5\9ED1"; margin: 20px 0 10px 0; }
+/*  === 标题模块 m-title ===  */00b46e
+.m-title { color: #333; font: normal 14px/20px "\5B8B\4F53"; margin: 20px 0 10px 0; }
 .m-title a { color: #333; }
-.m-title h2 { float: left; font-size: 20px; line-height: 24px; }
+.m-title h2 { float: left;  color: #00b46e; font-size: 18px; line-height: 24px; }
+.m-title h2 .m-block-green { display: inline-block; width: 6px; height: 16px; vertical-align:middle; background-color: #08B673; margin-right: 5px;}
+.m-title h2 span { display: inline-block; vertical-align:middle;} 
 .m-title .m-title-links { float: left; height: 24px; margin: 1px 0 0 20px; }
 .m-title .m-title-links a { display: inline-block; color: #999; font: normal 16px/20px "\5FAE\8F6F\96C5\9ED1"; padding: 2px 8px 3px; margin-right: 5px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 .m-title .m-title-links a:hover, .m-title .m-title-links a.active { color: #fff; text-decoration: none; background-color: #0099E6; }
@@ -190,41 +202,17 @@ z-index: 9; cursor: default; }
 .m-list-picT .ul-wrap li:after { clear: both; content: " "; display: block; height: 0; font-size: 0; visibility: hidden; }
 .m-list-picT { }
 .m-list-words { color: #999; font-style: italic; font-size: 14px; margin: -6px 0 14px; }
-.m-list-picT .ul-wrap { width: 960px; overflow: hidden; }
-.m-list-picT .ul-wrap ul { width: 990px; }
-.m-list-picT .ul-wrap li { position: relative; float: left; width: 300px; margin: 0 30px 20px 0; z-index: 9; }
-.m-list-picT .ul-wrap li .p-pic { position: relative; float: left; width: 82px; z-index: 9; }
-.m-list-picT .ul-wrap li .p-pic a { display: block; width: 80px; height: 80px; border: 1px solid #5CB8E6; overflow: hidden; }
-.m-list-picT .ul-wrap li .p-pic .span-tip { position: absolute; right: 0; bottom: 0; display: inline-block; font: normal 14px/1 "\5FAE\8F6F\96C5\9ED1"; color: #fff; text-align: center; padding: 4px 6px; }
-.m-list-picT .ul-wrap li .p-pic .span-tip-focus { background: #0099E6; }
-.m-list-picT .ul-wrap li .p-pic .span-tip-focused { background: url(../images/bg_black_opacity70.png) repeat; }
-.m-list-picT .ul-wrap li .div-info { float: right; width: 200px; font: normal 14px/1 "\5FAE\8F6F\96C5\9ED1"; }
-.m-list-picT .ul-wrap li .div-info h4, .m-list-picT .ul-wrap li .div-info .name { font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0 12px; color: #333; }
-.m-list-picT .ul-wrap li .div-info h4 a { color: #333; }
-.m-list-picT .ul-wrap li .div-info p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.8; color: #666; }
-.m-list-picT .ul-wrap li .div-info p .num-link { margin-left: 5px; }
-.m-list-picT .ul-wrap li .div-info .span-separate { color: #dadada; margin: 0 8px; }
-.m-list-picT .ul-wrap li .div-info p .c-orange { font-weight: normal; margin-left: 5px; }
-/*  === 图文列表模块（关注） m-list-focus ===  */
-.m-list-focus { margin: 10px auto; }
-.m-list-focus li .m-list-focus-info { zoom: 1; }
-.m-list-focus li .m-list-focus-info:after { clear: both; display: block; content: " "; font-size: 0; height: 0; visibility: hidden; }
-.m-list-focus li { position: relative; color: #666; font-size: 14px; background-color: #F7F7F7; padding: 10px; z-index: 9; }
-.m-list-focus .li-deep { background-color: #eee; }
-.m-list-focus li .m-list-focus-info .p-pic { float: left; width: 80px; height: 80px; overflow: hidden; margin-right: 20px; }
-.m-list-focus li .m-list-focus-info .div-info { float: left; width: 500px; }
-.m-list-focus li .m-list-focus-info .div-info h4 { font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 5px 0 8px; }
-.m-list-focus li .m-list-focus-info .div-info h4 small { font-size: 14px; }
-.m-list-focus li .m-list-focus-info .div-info .span-separate { margin: 0 7px; }
-.m-list-focus li .m-list-focus-info .div-info p { line-height: 1.6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.m-list-focus li .m-list-focus-btns { position: absolute; right: 10px; top: 35px; z-index: 99; }
-/*  图文列表模块（关注）-简版 m-list-focus-simple  */
-.m-list-focus-simple li .m-list-focus-info .p-pic { width: 50px; height: 50px; margin-right: 10px; }
-.m-list-focus-simple li .m-list-focus-info .div-info h4 { font-size: 16px; font-weight: bold; margin: 4px 0 6px; }
-.m-list-focus-simple li .m-list-focus-info .div-info p { font-size: 14px; }
-.m-list-focus-simple li .m-list-focus-btns { position: absolute; right: 10px; top: 17px; z-index: 99; }
-.m-list-focus-simple li .m-list-focus-btns p { line-height: 1.4; text-align: right; }
-.m-list-focus-simple li .m-list-focus-btns p a.m-btn-link { color: #333; }
+.m-list-picT .ul-wrap { position: relative; width: 735px; overflow: hidden; z-index: 9; }
+.m-list-picT .ul-wrap ul { width: 770px; }
+.m-list-picT .ul-wrap li { position: relative; float: left; width: 355px; border-right:1px solid #C0C0C0; margin: 0 25px 60px 0; z-index: 9; }
+.m-list-picT .ul-wrap li .p-pic { position: relative; float: left; width: 75px; margin-top: 3px; z-index: 9; }
+.m-list-picT .ul-wrap li .p-pic a { display: block; width: 75px; height: 75px; overflow: hidden; }
+.m-list-picT .ul-wrap li .p-pic a img { display: block; width: 75px;}
+.m-list-picT .ul-wrap li .div-info { float: right; width: 260px; font: normal 14px/1 "\5B8B\4F53"; }
+.m-list-picT .ul-wrap li .div-info h4, .m-list-picT .ul-wrap li .div-info .name { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 2px 0 5px; color: #333; }
+.m-list-picT .ul-wrap li .div-info h4 a { color: #00b46e; }
+.m-list-picT .ul-wrap li .div-info p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.5; color: #666; }
+.m-list-picT .ul-wrap li .div-info p.p-link a { font-size:12px; color:#a9a9a9; }
 /*  ===  分页模块 m-pagination ===  */
 .m-pagination { clear: both; display: block; margin: 20px auto; }
 .m-pagination p { text-align: center; }
@@ -247,18 +235,23 @@ z-index: 9; cursor: default; }
 /* === 00-两栏整体框架 === */
 .sideNav { float: left; width: 135px; height: 511px; background: url(../images/bg_border_shadow_r.png) no-repeat 120px 0; }
 .sideNav-in { width: 120px; }
-.sideNav-in h2 { position: relative; font: normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; color: #fff; background-color: #00B46E; padding: 4px 0 2px 25px; z-index: 9; }
+.sideNav-in h2 { position: relative; font: normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; color: #fff; background-color: #00B46E; padding: 3px 0 3px 25px; z-index: 9; }
 .sideNav-in h2 .span-decorate { position: absolute; right: -14px; bottom: 0; display: block; width: 14px; height: 26px; background-color: #00B46E; z-index: 99; }
 .sideNav-in h2 .m-icon-shadow-titleRL { position: absolute; right: -14px; bottom: -7px; z-index: 99; }
 .sideNav-in li a { display: block; width: 80px; color: #808080; text-align: center; margin: 35px auto 30px; }
 .sideNav-in li a:hover { text-decoration: none; }
 .sideNav-in li a span { display: block; margin-top: 5px; }
 .main-cont { float: right; width: 770px; }
+.main-cont .m-title { margin:0 0 30px 0; }
 /* =- To do: height*/
-#scroll-wrap { position: relative; height: 450px; z-index: 9; }
+#scroll-wrap { position: relative; height: 450px; z-index: 9; overflow-y:scroll\0;  }
+:root #scroll-wrap { overflow-y:hidden\0; }  /* Hack: ie9 */
 /* === 01-首页 === */
 .index-wrap { }
 .index-wrap .bg-line { margin: 25px auto 10px; }
 .index-wrap .cooperation table { width: 100%; }
 .index-wrap .cooperation table th { text-align: center; }
 .index-wrap .cooperation table td { text-align: center; vertical-align: middle; }
+
+/* === 05-成功案例 === */
+.cgal-wrap .main-cont { margin-top: 10px;}
