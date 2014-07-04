@@ -233,7 +233,7 @@ z-index: 9; cursor: default; }
    用途：各页面css
 ======================================== */
 /* === 00-两栏整体框架 === */
-.sideNav { float: left; width: 135px; height: 511px; background: url(../images/bg_border_shadow_r.png) no-repeat 120px 0; }
+.sideNav {  float: left; width: 135px; height: 511px; background: url(../images/bg_border_shadow_r.png) no-repeat 120px 0; }
 .sideNav-in { width: 120px; }
 .sideNav-in h2 { position: relative; font: normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; color: #fff; background-color: #00B46E; padding: 3px 0 3px 25px; z-index: 9; }
 .sideNav-in h2 .span-decorate { position: absolute; right: -14px; bottom: 0; display: block; width: 14px; height: 26px; background-color: #00B46E; z-index: 99; }
@@ -241,11 +241,17 @@ z-index: 9; cursor: default; }
 .sideNav-in li a { display: block; width: 80px; color: #808080; text-align: center; margin: 35px auto 30px; }
 .sideNav-in li a:hover { text-decoration: none; }
 .sideNav-in li a span { display: block; margin-top: 5px; }
+.sideNav-in .a-more { display: block; width: 120px; color: #808080; text-align: center; padding-top: 10px; }
 .main-cont { float: right; width: 770px; }
 .main-cont .m-title { margin:0 0 30px 0; }
-/* =- To do: height*/
-#scroll-wrap { position: relative; height: 450px; z-index: 9; overflow-y:scroll\0;  }
+/* iscroll.js 高度设计 */
+#scroll-wrap { position: relative; height: 450px; z-index: 9; overflow-y:scroll\9;  }
 :root #scroll-wrap { overflow-y:hidden\0; }  /* Hack: ie9 */
+/* reset size */
+.lxzx-wrap #scroll-wrap { height:480px;}
+.lxkc-wrap #scroll-wrap { height:390px;}
+.ysyx-wrap #scroll-wrap { height:400px;}
+
 /* === 01-首页 === */
 .index-wrap { }
 .index-wrap .bg-line { margin: 25px auto 10px; }
@@ -255,3 +261,7 @@ z-index: 9; cursor: default; }
 
 /* === 05-成功案例 === */
 .cgal-wrap .main-cont { margin-top: 10px;}
+.cgal-wrap .m-list-picT .ul-wrap li { border-right:0 none; margin-bottom:35px;}
+
+/* === 08-关于我们 === */
+.gywm-wrap .about-us { position: relative; width: 770px; overflow:hidden; z-index: 9; }

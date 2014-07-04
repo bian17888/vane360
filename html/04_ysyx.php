@@ -26,6 +26,7 @@
                     <li><a href="#"><i class="m-icon m-icon-dgyx"></i><span>德国院校</span></a></li>
                     <li><a href="#"><i class="m-icon m-icon-fgyx"></i><span>法国院校</span></a></li>
                 </ul>
+                <a class="a-more" href="">&gt;&gt;更多</a>
             </div>
         </aside>
         
@@ -196,8 +197,8 @@
     <!-- main-cont -->
     <section class="tool-bar">
         <ul>
-            <li><a href="#"><i class="m-icon m-icon-zxbm"></i><span>高中留学</span></a></li>
-            <li><a href="#"><i class="m-icon m-icon-zxzx"></i><span>本科留学</span></a></li>
+            <li><a href="#"><i class="m-icon m-icon-zxbm"></i><span>在线报名</span></a></li>
+            <li><a href="#"><i class="m-icon m-icon-zxzx"></i><span>在线咨询</span></a></li>
             <li><a href="#"><img src="images/bg_QRcode.png" alt=""></a></li>
         </ul>
     </section>

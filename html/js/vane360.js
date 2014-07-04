@@ -24,7 +24,7 @@ $(function(){
     	$('.vane360-wrap').css({'min-height':minHeight});
 	});
 	
-	
+	/*  ===== iscroll 滚动模块 ====== */
 	var myScroll;
 	function loaded () {
 		myScroll = new IScroll('#scroll-wrap', { 
@@ -35,6 +35,17 @@ $(function(){
 		});
 	}
 	loaded();
+	
+	/* ===== fancybox ====== */
+	$('.zpzs-wrap .p-pic a').fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false,
+		'overlayShow':true
+	});
+	
 });
 
 

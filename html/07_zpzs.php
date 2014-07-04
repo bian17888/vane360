@@ -2,24 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>留学咨询</title>
+<title>留学资讯</title>
 <!--[if lt IE 9]>
 <script src="js/html5.js"></script>
 <![endif]-->
 <link rel="stylesheet" href="css/vane360.css" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
 </head>
 <body>
 <!-- header（Start） -->
 <?php include 'header.html' ?>
 <!-- header（End） -->
 
-<div class="vane360-wrap lxzx-wrap">
+<div class="vane360-wrap zpzs-wrap">
     <div class="bg-line" style="margin:25px auto 20px"></div>
     <article class="clearfix"> 
         <!-- sideNav -->
         <aside class="sideNav">
             <div class="sideNav-in">
-                <h2><span>资讯分类</span> <span class="span-decorate"></span><i class="m-icon m-icon-shadow-titleRL"></i></h2>
+                <h2><span>作品分类</span> <span class="span-decorate"></span><i class="m-icon m-icon-shadow-titleRL"></i></h2>
                 <ul>
                     <li><a href="#"><i class="m-icon m-icon-person"></i><span>高中留学</span></a></li>
                     <li><a href="#"><i class="m-icon m-icon-person"></i><span>本科留学</span></a></li>
@@ -35,11 +36,11 @@
                     <ul class="clearfix" id="scroll">
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_00.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_00.jpg" title=""><img src="images/temp/pic_330x160_00.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
@@ -47,11 +48,11 @@
                         </li>
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_01.jpg" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
@@ -59,11 +60,11 @@
                         </li>
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_02.jpg" title=""><img src="images/temp/pic_330x160_02.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
@@ -71,11 +72,11 @@
                         </li>
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_03.jpg" title=""><img src="images/temp/pic_330x160_03.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
@@ -83,11 +84,11 @@
                         </li>
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_02.jpg" title=""><img src="images/temp/pic_330x160_02.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
@@ -95,11 +96,11 @@
                         </li>
                         <li class="li-s330x160">
                             <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_330x160_01.jpg" alt=""></a>
+                                <a href="images/temp/pic_330x160_03.jpg" title=""><img src="images/temp/pic_330x160_03.jpg" alt=""></a>
                             </p>
-                            <h3><a class="c-green" href="#">风标留学-带你去英国</a></h3>
+                            <h3><a class="c-green" href="#">产品设计-风标学生W同学</a></h3>
                             <p class="p-des">
-                                风标留学英国直通车正式开通，以最权威的途径、最强大的…
+                                该作品是一款音乐播放器，IPod再设计，设计完整美观。
                             </p>
                             <p>
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
