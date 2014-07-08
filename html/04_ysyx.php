@@ -211,7 +211,11 @@
                         </li>
                     </ul>
                 </div>
-                <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
+                <!-- <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div> -->
+                <div id="slide-pages">
+                    <p>
+                    </p>
+                </div>
             </section>
         </div>
     </article>

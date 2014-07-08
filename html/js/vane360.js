@@ -22,8 +22,8 @@ $(function(){
 		easeIn:'easeOutCirc',
 		timeout:0,
 		speed:600,
-		prev:'#slide-btns .m-sbtn-prev',
-		next:'#slide-btns .m-sbtn-next'
+		pagerEvent: 'mouseover',
+		pager:  '#slide-pages p'
 	});
 	$('#slide-cont li:odd').css({'border-right':'0'});
 	

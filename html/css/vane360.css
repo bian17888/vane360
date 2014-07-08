@@ -109,10 +109,16 @@ a:hover { text-decoration: underline }
 .m-slide-main .m-slide-btns a { margin-top: -30px; }
 /*  reset #slide  */
 #slide { position: relative; width: 770px; z-index: 9; }
-#slide-btns { position: absolute; bottom: -20px; left: 0; display: block; width: 770px; text-align: right; z-index: 99; *bottom:-30px; }
+#slide-btns { position: absolute; bottom: -20px; left: 0; display: block; width: 770px; text-align: right; z-index: 99; *bottom:-30px;
+}
 #slide-btns .m-sbtn-prev, #slide-btns .m-sbtn-next { display: inline-block; width: 19px; height: 19px; background: url(../images/bg_slide_btns.png) no-repeat 0 0; margin-left: 10px; }
 #slide-btns .m-sbtn-prev { background-position: 0 0; }
 #slide-btns .m-sbtn-next { background-position: -29px 0; }
+#slide-pages { position: absolute; bottom: -20px; left: 0; display: block; width: 770px; text-align: right; z-index: 99; *bottom:-40px;
+}
+#slide-pages p { text-align: right; }
+#slide-pages p a { display: inline-block; vertical-align: middle; font: normal 12px/18px "\5B8B\4F53", Arial; color: #6f6f6f; background-color: #FFF; text-decoration: none; padding: 3px 10px; margin-left: 10px; }
+#slide-pages p a:hover, #slide-pages p a.active { color: #fff; text-decoration: none; background-color: #00B46E; }
 /*  === 标题模块 m-title ===  */
 .m-title { color: #333; font: normal 14px/20px "\5B8B\4F53"; margin: 20px 0 10px 0; }
 .m-title a { color: #333; }
