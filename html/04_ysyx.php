@@ -26,8 +26,7 @@
                     <li><a href="#"><i class="m-icon m-icon-dgyx"></i><span>德国院校</span></a></li>
                     <li><a href="#"><i class="m-icon m-icon-fgyx"></i><span>法国院校</span></a></li>
                 </ul>
-                <a class="a-more" href="">&gt;&gt;更多</a>
-            </div>
+                <a class="a-more" href="">&gt;&gt;更多</a> </div>
         </aside>
         
         <!-- main-cont -->
@@ -35,19 +34,21 @@
             <div class="m-title clearfix">
                 <h2><i class="m-block-green"></i><span>推荐院校</span></h2>
             </div>
-            <section class="m-list-picT">
-                <div class="ul-wrap" id="scroll-wrap">
-                    <ul class="clearfix" id="scroll">
+            <section class="m-list-picT" id="slide">
+                <div class="ul-wrap" id="slide-cont">
+                    <ul class="clearfix" >
                         <li>
                             <p class="p-pic">
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -58,11 +59,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_02.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国皇家学院</a></h4>       
+                                <h4><a href="#">英国皇家学院</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -73,11 +76,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_03.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -88,11 +93,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_04.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -103,11 +110,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_05.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -118,11 +127,32 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="clearfix">
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">英国EDB大学</a></h4>
+                                <p>
+                                    The University Of Edinburg
+                                </p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -133,11 +163,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -148,11 +180,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
+                                <p>
+                                    专业推荐：工业设计、室内设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -163,26 +197,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
+                                <h4><a href="#">英国EDB大学</a></h4>
                                 <p>
-                                   The University Of Edinburg
+                                    The University Of Edinburg
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_country_75x75_06.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">英国EDB大学</a></h4>       
                                 <p>
-                                   The University Of Edinburg
+                                    专业推荐：工业设计、室内设计
                                 </p>
-                                <p>专业推荐：工业设计、室内设计</p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -190,6 +211,7 @@
                         </li>
                     </ul>
                 </div>
+                <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
             </section>
         </div>
     </article>

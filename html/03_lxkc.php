@@ -33,19 +33,21 @@
             <div class="m-title clearfix">
                 <h2><i class="m-block-green"></i><span>推荐课程</span></h2>
             </div>
-            <section class="m-list-picT">
-                <div class="ul-wrap" id="scroll-wrap">
-                    <ul class="clearfix" id="scroll">
+            <section class="m-list-picT" id="slide">
+                <div class="ul-wrap" id="slide-cont">
+                    <ul class="clearfix">
                         <li>
                             <p class="p-pic">
                                 <a href="#" title=""><img src="images/temp/pic_75x75_00.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -56,11 +58,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -71,11 +75,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -86,11 +92,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -101,11 +109,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -116,11 +126,32 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="clearfix">
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">工业设计手绘班</a></h4>
+                                <p>
+                                    时间：2014年1月-2015年1月
+                                </p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -131,11 +162,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -146,11 +179,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -161,11 +196,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -176,11 +213,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
+                                <p>
+                                    针对方向：工业设计
+                                </p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -191,26 +230,13 @@
                                 <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
                             </p>
                             <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
+                                <h4><a href="#">工业设计手绘班</a></h4>
                                 <p>
                                     时间：2014年1月-2015年1月
                                 </p>
-                                <p>针对方向：工业设计</p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_75x75_01.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">工业设计手绘班</a></h4>       
                                 <p>
-                                    时间：2014年1月-2015年1月
+                                    针对方向：工业设计
                                 </p>
-                                <p>针对方向：工业设计</p>
                                 <p class="p-link">
                                     <a href="#">查看更多信息>></a>
                                 </p>
@@ -218,6 +244,7 @@
                         </li>
                     </ul>
                 </div>
+                <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
             </section>
         </div>
     </article>

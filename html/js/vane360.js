@@ -16,6 +16,17 @@ $(function(){
 		pager:  '.m-slide .m-slide-pages p'
 	});
 	
+	//其他页轮转
+	$('#slide-cont').cycle({
+		fx: 'scrollHorz',
+		easeIn:'easeOutCirc',
+		timeout:0,
+		speed:600,
+		prev:'#slide-btns .m-sbtn-prev',
+		next:'#slide-btns .m-sbtn-next'
+	});
+	$('#slide-cont li:odd').css({'border-right':'0'});
+	
 	/*  ===== footer 居页面底部 ====== */
 	var pageHeight = $(window).height();
 	var minHeight = pageHeight - 318;
@@ -25,6 +36,7 @@ $(function(){
 	});
 	
 	/*  ===== iscroll 滚动模块 ====== */
+	/*
 	var myScroll;
 	function loaded () {
 		myScroll = new IScroll('#scroll-wrap', { 
@@ -35,6 +47,7 @@ $(function(){
 		});
 	}
 	loaded();
+	*/
 	
 	/* ===== fancybox ====== */
 	$('.zpzs-wrap .p-pic a').fancybox({

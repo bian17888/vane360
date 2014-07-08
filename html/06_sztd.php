@@ -30,77 +30,9 @@
         
         <!-- main-cont -->
         <div class="main-cont">
-            <section class="m-list-picT">
-                <div class="ul-wrap" id="scroll-wrap">
-                    <ul class="clearfix" id="scroll">
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_head_75x75_01.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">王老师</a></h4>
-                                <p>
-                                    专业：工业设计
-                                </p>
-                                <p>
-                                    负责项目：设计理论
-                                </p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_head_75x75_02.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">张老师</a></h4>
-                                <p>
-                                    专业：环艺设计
-                                </p>
-                                <p>
-                                    负责项目：设计手绘
-                                </p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_head_75x75_01.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">王老师</a></h4>
-                                <p>
-                                    专业：工业设计
-                                </p>
-                                <p>
-                                    负责项目：设计理论
-                                </p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="p-pic">
-                                <a href="#" title=""><img src="images/temp/pic_head_75x75_02.jpg" alt=""></a>
-                            </p>
-                            <div class="div-info">
-                                <h4><a href="#">张老师</a></h4>
-                                <p>
-                                    专业：环艺设计
-                                </p>
-                                <p>
-                                    负责项目：设计手绘
-                                </p>
-                                <p class="p-link">
-                                    <a href="#">查看更多信息>></a>
-                                </p>
-                            </div>
-                        </li>
+            <section class="m-list-picT" id="slide">
+                <div class="ul-wrap" id="slide-cont">
+                    <ul class="clearfix" >
                         <li>
                             <p class="p-pic">
                                 <a href="#" title=""><img src="images/temp/pic_head_75x75_01.jpg" alt=""></a>
@@ -204,7 +136,78 @@
                             </div>
                         </li>
                     </ul>
+                    <ul class="clearfix">
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_head_75x75_01.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">王老师</a></h4>
+                                <p>
+                                    专业：工业设计
+                                </p>
+                                <p>
+                                    负责项目：设计理论
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_head_75x75_02.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">张老师</a></h4>
+                                <p>
+                                    专业：环艺设计
+                                </p>
+                                <p>
+                                    负责项目：设计手绘
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_head_75x75_01.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">王老师</a></h4>
+                                <p>
+                                    专业：工业设计
+                                </p>
+                                <p>
+                                    负责项目：设计理论
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="p-pic">
+                                <a href="#" title=""><img src="images/temp/pic_head_75x75_02.jpg" alt=""></a>
+                            </p>
+                            <div class="div-info">
+                                <h4><a href="#">张老师</a></h4>
+                                <p>
+                                    专业：环艺设计
+                                </p>
+                                <p>
+                                    负责项目：设计手绘
+                                </p>
+                                <p class="p-link">
+                                    <a href="#">查看更多信息>></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+                <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
             </section>
         </div>
     </article>

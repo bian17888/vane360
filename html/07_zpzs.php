@@ -31,9 +31,9 @@
         
         <!-- main-cont -->
         <div class="main-cont">
-            <section class="m-group-pic m-group-text">
-                <div class="ul-wrap" id="scroll-wrap">
-                    <ul class="clearfix" id="scroll">
+            <section class="m-group-pic m-group-text" id="slide">
+                <div class="ul-wrap" id="slide-cont">
+                    <ul class="clearfix">
                         <li class="li-s330x160">
                             <p class="p-pic">
                                 <a href="images/temp/pic_330x160_00.jpg" title=""><img src="images/temp/pic_330x160_00.jpg" alt=""></a>
@@ -82,6 +82,8 @@
                                 <a class="c-gray" href="#">查看更多信息&gt;&gt;</a>
                             </p>
                         </li>
+                    </ul>
+                    <ul class="clearfix">
                         <li class="li-s330x160">
                             <p class="p-pic">
                                 <a href="images/temp/pic_330x160_02.jpg" title=""><img src="images/temp/pic_330x160_02.jpg" alt=""></a>
@@ -108,6 +110,7 @@
                         </li>
                     </ul>
                 </div>
+                <div id="slide-btns"><a class="m-sbtn-prev" href="#"></a><a class="m-sbtn-next" href="#"></a></div>
             </section>
         </div>
     </article>
@@ -117,7 +120,7 @@
         <ul>
             <li><a href="#"><i class="m-icon m-icon-zxbm"></i><span>在线报名</span></a></li>
             <li><a href="#"><i class="m-icon m-icon-zxzx"></i><span>在线咨询</span></a></li>
-            <li><a href="#"><img src="images/bg_QRcode.png" alt=""></a></li> 
+            <li><a href="#"><img src="images/bg_QRcode.png" alt=""></a></li>
         </ul>
     </section>
 </div>

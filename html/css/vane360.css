@@ -31,49 +31,7 @@ a:hover { text-decoration: underline }
 .mlr-10 { margin: 0 10px; }
 .w160 { width: 160px; }
 .w350 { width: 350px; }
-.right { float: right; }
 .bg-line { font-size: 0; line-height: 0; height: 1px; background: #c0c0c0; }
-.medal-h240 { height: 240px; }
-.medal-h490 { height: 490px; }
-.medal-h990 { height: 990px; }
-/* === Btns === */
-.m-btn { display: inline-block; height: 20px; font: normal 14px/20px '\5FAE\8F6F\96C5\9ED1', '\5b8b\4f53'; text-align: center; vertical-align: middle; text-decoration: none; color: #fff; background-color: #525C66; border: 0px solid #0066cc; padding: 4px 15px 4px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2); -webkit-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2); box-shadow: inset 0px 1px 0px rgba(255,255,255,0.2); }
-.m-btn:hover { text-decoration: none; background-color: #525C66; }
-.m-btn-border { border-width: 1px; padding: 3px 15px 5px; }
-/*  尺寸  */
-.m-btn-mini { }
-.m-btn-small { }
-.m-btn-large { height: 21px; line-height: 20px; font-size: 18px; padding: 9px 22px; *padding: 8px 22px 10px;
-}
-.m-btn-submit { padding: 3px 40px; *padding: 1px 40px 5px;
-}
-button.m-btn { }
-button.m-btn-mini { }
-button.m-btn-small { }
-button.m-btn-large { height: 41px; line-height: 38px; padding: 0px 22px; *padding: 0px 10px;
-}
-.m-btn-double, button.m-btn-double { padding-left: 50px; padding-right: 50px; *padding-left:30px;
-*padding-right:30px;
-}
-/*  颜色 - 按功能  */
-.m-btn-primary { color: #fff; background-color: #0099E6; border-color: #0066cc; }
-.m-btn-primary:hover { background-color: #0099E6; }
-.m-btn-success { color: #fff; background-color: #26bf26; border-color: #1f9947; }
-.m-btn-success:hover { background-color: #26bf26; }
-.m-btn-gray { color: #fff; background-color: #ccc; border-color: #999; }
-.m-btn-gray:hover { background-color: #ccc; }
-.m-btn-cancle { color: #333; background-color: #f7f7f7; border-color: #ccc; }
-.m-btn-cancle:hover { background-color: #f7f7f7; }
-.m-btn-danger { color: #fff; background-color: #E68A8A; border-color: #c25151; }
-.m-btn-danger:hover { background-color: #E68A8A; }
-.m-btn-inverse { color: #fff; background-color: #525C66; }
-.m-btn-inverse:hover { background-color: #525C66; }
-.m-btn-tag { position: relative; color: #333; background-color: #fff; border-color: #ccc; padding: 4px 25px 4px 15px; *padding: 2px 25px 6px 15px;
-z-index: 9; cursor: default; }
-.m-btn-tag .m-icon-close { position: absolute; right: 7px; top: 2px; z-index: 99; }
-.m-btn-tag:hover { background-color: #fff; }
-.m-btn-link { display: inline-block; height: 20px; font: normal 14px/20px '\5FAE\8F6F\96C5\9ED1', '\5b8b\4f53'; vertical-align: middle; text-decoration: none; color: #1A66B3; }
-.m-btn-link:hover { text-decoration: underline; color: #1A66B3; }
 /* === Icons === */
 .m-icon { display: inline-block; line-height: 18px; vertical-align: middle; background-image: url("../images/bg_icons.png"); background-position: 0px 0px; background-repeat: no-repeat; }
 .m-icon-shadow-br { width: 6px; height: 15px; background-position: -0px -35px; }
@@ -149,33 +107,18 @@ z-index: 9; cursor: default; }
 .m-slide-main { width: 960px; height: 380px; overflow: hidden; margin: 10px 0; }
 .m-slide-main .m-slide-cont li a.m-slide-cont-fullPic { width: 960px; height: 380px; }
 .m-slide-main .m-slide-btns a { margin-top: -30px; }
-/*  === 标题模块 m-title ===  */00b46e .m-title {
-color: #333;
-font: normal 14px/20px "\5B8B\4F53";
-margin: 20px 0 10px 0;
-}
+/*  reset #slide  */
+#slide { position: relative; width: 770px; z-index: 9; }
+#slide-btns { position: absolute; bottom: -20px; left: 0; display: block; width: 770px; text-align: right; z-index: 99; *bottom:-30px; }
+#slide-btns .m-sbtn-prev, #slide-btns .m-sbtn-next { display: inline-block; width: 19px; height: 19px; background: url(../images/bg_slide_btns.png) no-repeat 0 0; margin-left: 10px; }
+#slide-btns .m-sbtn-prev { background-position: 0 0; }
+#slide-btns .m-sbtn-next { background-position: -29px 0; }
+/*  === 标题模块 m-title ===  */
+.m-title { color: #333; font: normal 14px/20px "\5B8B\4F53"; margin: 20px 0 10px 0; }
 .m-title a { color: #333; }
 .m-title h2 { float: left; color: #00b46e; font-size: 18px; line-height: 24px; }
 .m-title h2 .m-block-green { display: inline-block; width: 6px; height: 16px; vertical-align: middle; background-color: #08B673; margin-right: 5px; }
 .m-title h2 span { display: inline-block; vertical-align: middle; }
-.m-title .m-title-links { float: left; height: 24px; margin: 1px 0 0 20px; }
-.m-title .m-title-links a { display: inline-block; color: #999; font: normal 16px/20px "\5FAE\8F6F\96C5\9ED1"; padding: 2px 8px 3px; margin-right: 5px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
-.m-title .m-title-links a:hover, .m-title .m-title-links a.active { color: #fff; text-decoration: none; background-color: #0099E6; }
-.m-title a.m-title-btn-more { float: right; text-decoration: none; margin-top: 2px; }
-.m-title a.m-title-btn-more:hover { text-decoration: underline; }
-.m-title a.m-title-btn-more span { display: inline-block; vertical-align: middle; }
-.m-title a.m-title-btn-more .m-icon-plus { position: relative; top: -1px; display: inline-block; font-size: 20px; line-height: 22px; font-weight: bold; color: #0099e6; vertical-align: middle; margin-left: 1px; *top:-3px;
-}
-.m-title .m-boot-select { float: right; }
-/* 带下划线样式 */
-.m-title-lineB { border-bottom: 1px solid #DDDDDD; padding-bottom: 10px; margin-bottom: 20px; }
-/* 按钮居中样式 */
-.m-title-txC .m-title-links { float: none; text-align: center; }
-/*  === 广告模块 m-ad===  */
-.m-ad-regist { position: relative; font-size: 18px; background-color: #FFF2D9; padding: 10px 10px; margin: 10px 0; z-index: 9; }
-.m-ad-regist p { width: 700px; height: 54px; overflow: hidden; line-height: 1.5; }
-.m-ad-regist p strong.c-blue { font-weight: normal; }
-.m-ad-regist .m-btn-large { position: absolute; right: 10px; top: 10px; z-index: 99; }
 /*  === 组图模块 m-group-pic ===  */
 .m-group-pic { }
 .m-group-pic .ul-wrap { width: 960px; overflow: hidden; }
@@ -216,14 +159,6 @@ margin: 20px 0 10px 0;
 .m-list-picT .ul-wrap li .div-info h4 a { color: #00b46e; }
 .m-list-picT .ul-wrap li .div-info p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.5; color: #666; }
 .m-list-picT .ul-wrap li .div-info p.p-link a { font-size: 12px; color: #a9a9a9; }
-/*  ===  分页模块 m-pagination ===  */
-.m-pagination { clear: both; display: block; margin: 20px auto; }
-.m-pagination p { text-align: center; }
-.m-pagination p a, .m-pagination p span { display: inline-block; vertical-align: middle; font: normal 14px/20px "\5FAE\8F6F\96C5\9ED1", Arial; color: #999; padding: 0 5px; margin: 0 2px; }
-.m-pagination p a:hover, .m-pagination p a.active { color: #0099e6; text-decoration: none; }
-/*  ===  表单报错模块 m-error-msg ===  */
-/*error msg style*/
-.m-error-msg { background: url("../images/icon_error.png") 5px center no-repeat #ffebeb; border: 1px solid #d89292; border-radius: 5px; padding: 5px 5px 5px 30px; max-width: 235px; width: 235px; margin-bottom: 15px; margin-top: 10px; }
 /*  === tool-bar ===  */
 .tool-bar { position: absolute; right: -70px; top: 0; display: block; width: 60px; z-index: 99; *top:25px;
 }
@@ -248,12 +183,15 @@ margin: 20px 0 10px 0;
 .main-cont { float: right; width: 770px; }
 .main-cont .m-title { margin: 0 0 30px 0; }
 /* iscroll.js 高度设计 */
-#scroll-wrap { position: relative; height: 450px; z-index: 9; overflow-y: scroll\9; }
+#scroll-wrap { position: relative; height: 450px; z-index: 9; overflow-y: auto\9; }
 :root #scroll-wrap { overflow-y: hidden\0; }  /* Hack: ie9 */
 /* reset size */
 .lxzx-wrap #scroll-wrap { height: 480px; }
 .lxkc-wrap #scroll-wrap { height: 390px; }
-.ysyx-wrap #scroll-wrap { height: 400px; overflow:hidden; }
+.ysyx-wrap #scroll-wrap { height: 400px; overflow: hidden; }
+/* #slide 各页面位置 */
+
+
 /* === 01-首页 === */
 .index-wrap { }
 .index-wrap .bg-line { margin: 25px auto 10px; }
@@ -282,6 +220,8 @@ margin: 20px 0 10px 0;
 .ysyx-wrap .ysyx-detail-cont li p a { color: #808080; text-decoration: underline; }
 /* === 05-成功案例 === */
 .cgal-wrap .main-cont { margin-top: 10px; }
-.cgal-wrap .m-list-picT .ul-wrap li { border-right: 0 none; margin-bottom: 35px; }
+.cgal-wrap .m-list-picT .ul-wrap li { margin-bottom: 35px; }
+/* === 06-师资团队=== */
+.sztd-wrap .main-cont { margin-top: 10px; }
 /* === 08-关于我们 === */
 .gywm-wrap .about-us { position: relative; width: 770px; overflow: hidden; z-index: 9; }
